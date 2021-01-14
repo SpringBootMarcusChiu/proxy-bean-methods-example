@@ -21,7 +21,10 @@ public class ProxyBeanMethodsExampleApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) {
+		System.out.println("\n\n\n\n");
+		System.out.println("if output different then they are different beans");
 		System.out.println(subClass1RestTemplate.state);
 		System.out.println(subClass2RestTemplate.state);
+		System.out.println("\n\n\n\n");
 	}
 }
